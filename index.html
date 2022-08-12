@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <div class="container p-5">
+        <div class="form-input">
+            <div class="input-gp mb-3">
+                <label>Product Name</label>
+                <input id="ProductName" class="form-control mb-2">
+                <div id="nameAlert" class="alert alert-danger d-none">name must be start with capital and ...</div>
+            </div>
+            <div class="input-gp mb-3">
+                <label>Product Price</label>
+                <input id="ProductPrice" class="form-control">
+            </div>
+            <div class="input-gp mb-3">
+                <label>Product Category</label>
+                <input id="ProductCategory" class="form-control">
+            </div>
+            <div class="input-gp mb-3">
+                <label>Product Description</label>
+                <textarea id="ProductDesc" class="form-control"></textarea>
+            </div>
+
+            <button disabled id="addBtn" class="btn btn-primary">Add Product</button>
+
+        </div>
+        <div class="form-data my-5">
+            <input id="search" class="form-control mb-4" placeholder="Search by Name">
+            <table class="table table-striped">
+                <thead>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Category</th>
+                    <th>Description</th>
+                    <th></th>
+                    <th></th>
+                </thead>
+                <tbody id="tableBody">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="JS/popper.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>

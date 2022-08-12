@@ -1,0 +1,277 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/intro-bg.jpg);
+    background-size: 100% 100%;
+}
+nav{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 99999;
+}
+.navbar-brand{
+    font-size: 35;
+    font-weight: bolder;
+}
+.nav-item{
+    font-size: 22;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.header{
+    position: absolute;
+    color: rgb(255, 255, 255);
+}
+.header h2{
+    font-size: 35;
+}
+.header h1{
+    margin: 20px;
+    font-size: 85;
+}
+.radios{
+    font-size: 20;
+    color: rgb(7, 194, 47);
+    border-radius: 37px;
+    padding: 15px;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.lower p{
+   font-size: 110px;
+   font-weight: bolder;
+   color: rgb(240, 236, 236);
+}
+.upper p{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+.underline{
+    width: 100px;
+    height: 4px;
+    background-color: rgb(32, 201, 151);
+}
+.counter h1{
+    font-size: 45px; 
+}
+.title span{
+    color: rgb(32, 201, 151);
+    font-weight: bold;
+}
+.more-info{
+    font-size: 18px;
+    color: rgb(139, 138, 138);
+    font-weight: lighter;
+}
+.table tr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lable{
+    font-weight: bold;
+}
+.email{
+    color: rgb(32, 201, 151);
+}
+.btn{
+    padding: 15px;
+    font-size: 14;
+    color: white;
+    box-shadow: 0 0 15px thistle;
+}
+.btn:hover{
+    box-shadow: 0 0 15px rgb(194, 152, 194);
+}
+.counter h2{
+    color: rgb(139, 138, 138);
+    font-size: 50px;
+}
+.counter p{
+    color: rgb(139, 138, 138);
+}
+.about-me2{
+    background-color: rgb(248, 249, 250);
+}
+.container{
+    background-color: rgb(248, 249, 250);
+}
+.container img{
+    width: 17%;
+    margin-right: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 4px rgb(139, 138, 138);
+}
+.skill{
+    box-shadow: 0 0 4px rgb(163, 161, 155) ;
+}
+.date{
+    background-color: rgb(6, 177, 92);
+    color: white;
+    border-radius: 5px;
+}
+.detils h4{
+    font-size: 18;
+    color: red;
+}
+.two-skills{
+        border-radius: 15px;
+}
+.bercent{
+    border-radius: 20px;
+    background-color: rgb(233, 236, 239);
+}
+.real-bercent1{
+    width: 65%;
+    height: 10px;
+    background-color: rgb(32, 201, 151);
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+}
+.real-bercent2{
+    width: 70%;
+    height: 10px;
+    background-color: rgb(32, 201, 151);
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+}
+.real-bercent3{
+    width: 95%;
+    height: 10px;
+    background-color: rgb(32, 201, 151);
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+}
+.real-bercent4{
+    width: 60%;
+    height: 10px;
+    background-color: rgb(32, 201, 151);
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+}
+.real-bercent5{
+    width: 80%;
+    height: 10px;
+    background-color: rgb(32, 201, 151);
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+}
+.real-bercent6{
+    width: 99%;
+    height: 10px;
+    background-color: rgb(32, 201, 151);
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+}
+.button{
+    margin: auto;
+    padding: 20px;
+}
+.btn{
+    font-size: 20px;
+    color: black;
+    height: 60px;
+    width: 250px;
+    transition: all 1s;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(108, 117, 125);
+}
+.MyWork{
+    background-color: rgb(248, 249, 250);
+}
+.column{
+    width: 33.3%;
+}
+.hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    opacity: 0;
+    transition: all 0.6s;
+}
+.hover:hover {
+    opacity: 1;
+}
+.slide{
+    background-color: rgb(248, 249, 250);
+    border-radius: 15px;
+    padding: 40px;
+}
+.up img{
+    width: 70%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.text h4{
+    font-size: 22;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.down p, .text p{
+   font-size: 18;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(108, 117, 125);
+   margin-top: 20px;
+}
+.slidebutton {
+    width: 15px !important;
+    height: 15px !important; 
+    border-radius: 50% ;
+    background-color:rgb(207, 180, 180)!important;
+}
+.carousel{
+    padding-bottom: 80px;
+}
+.container-fluid{
+    width: 80%;
+}
+.container-fluid form{
+    width:  100%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inline input{
+    width: 48%;
+    height: 50px;
+    padding: 15px;
+    border: 1.5px solid tan;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.block input{
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    margin-bottom: 30px;
+    border: 1.5px solid tan;
+    border-radius: 10px;
+}
+.block textarea{
+   width: 100%;
+   text-align: start;
+   height: 120px;
+   padding: 10px;
+   border: 1.5px solid tan;
+   border-radius: 10px;
+}
+.btn{
+    background-color: rgb(32, 201, 151);
+    color: white;
+    transition: all 1s;
+}
+.btn:hover{
+    background-color: rgb(30, 148, 113);
+}
+span{
+    color: rgb(32, 201, 151);
+    font-weight: bold;
+}
